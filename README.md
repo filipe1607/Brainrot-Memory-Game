@@ -29,7 +29,7 @@ O *Brainrot-Memory-Game* é uma aplicação desenvolvida em Java, com uma interf
 
 - *Java*: Linguagem de programação principal.
 - *Swing*: Biblioteca para construção da interface gráfica.
-- *JSON*: Para armazenamento de ranking e dados do jogo.
+
 
 
 ## Equipe
