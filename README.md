@@ -15,7 +15,7 @@ O *Brainrot-Memory-Game* é uma aplicação desenvolvida em Java, com uma interf
 
 ## Como Jogar
 
-1. *Iniciar o Jogo*: Ao abrir o jogo, você verá um menu inicial com a opção de escolher o nível da dificuldade (Fácil, Médio ou Difícil).
+1. *Iniciar o Jogo*: Ao abrir o jogo, você verá um menu inicial com a opção de escolher o nível de dificuldade (Fácil, Médio ou Difícil).
    
 2. *Objetivo*: O objetivo do jogo é combinar os pares de cartas o mais rápido possível, minimizando o número de tentativas.
    
@@ -29,7 +29,7 @@ O *Brainrot-Memory-Game* é uma aplicação desenvolvida em Java, com uma interf
 
 - *Java*: Linguagem de programação principal.
 - *Swing*: Biblioteca para construção da interface gráfica.
-
+- *JSON*: Para armazenamento de ranking e dados do jogo.
 
 
 ## Equipe
