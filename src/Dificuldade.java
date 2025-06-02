@@ -6,12 +6,12 @@ public enum Dificuldade {
     /**
      * Nível fácil: tabuleiro 4x4, 120 segundos.
      */
-    FACIL(4, 4, 120),
+    FACIL(4, 4, 100),
 
     /**
      * Nível médio: tabuleiro 5x4, 90 segundos.
      */
-    MEDIO(5, 4, 90),
+    MEDIO(5, 4, 80),
 
     /**
      * Nível difícil: tabuleiro 6x6, 60 segundos.
@@ -36,9 +36,9 @@ public enum Dificuldade {
     /**
      * Construtor da enumeração que define as configurações para cada dificuldade.
      *
-     * @param linhas         Número de linhas do tabuleiro.
-     * @param colunas        Número de colunas do tabuleiro.
-     * @param tempoSegundos  Tempo disponível para completar o jogo (em segundos).
+     * @param linhas        Número de linhas do tabuleiro.
+     * @param colunas       Número de colunas do tabuleiro.
+     * @param tempoSegundos Tempo disponível para completar o jogo (em segundos).
      */
     Dificuldade(int linhas, int colunas, int tempoSegundos) {
         this.linhas = linhas;

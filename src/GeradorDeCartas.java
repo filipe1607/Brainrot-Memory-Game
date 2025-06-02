@@ -20,7 +20,7 @@ public class GeradorDeCartas {
     public static ArrayList<Carta> gerarCartasPequenasComPainel(PainelDeJogo painel, int linhas, int colunas) {
         ArrayList<Carta> cartas = new ArrayList<>();
 
-        String caminhoCosta = "src/assets/costa.png"; // imagem padrão do verso da carta
+        String caminhoCosta = "src/assets/cards/costa.png"; // imagem padrão do verso da carta
         int totalCartas = linhas * colunas;
         int totalPares = totalCartas / 2;
 
@@ -30,7 +30,7 @@ public class GeradorDeCartas {
         }
 
         for (int i = 1; i <= totalPares; i++) {
-            String caminhoFrente = "src/assets/carta" + i + ".jpg"; // frente única por ID
+            String caminhoFrente = "src/assets/cards/carta" + i + ".jpg"; // frente única por ID
 
             // Verifica se o arquivo de imagem da frente da carta existe
             if (!new java.io.File(caminhoFrente).exists()) {
